@@ -1,0 +1,17 @@
+project:
+  name: NeuroVision AI
+  dataset: FER-2013
+  architecture: MobileNetV3-Small
+  image_size: 224
+  classes:
+    - angry
+    - disgust
+    - fear
+    - happy
+    - neutral
+    - sad
+    - surprise
+paths:
+  dataset: data/raw/fer2013
+  model: models/best_emotion_model.pth
+  haar_cascade: models/haarcascade_frontalface_default.xml

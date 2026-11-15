@@ -1,0 +1,13 @@
+streamlit>=1.38
+streamlit-webrtc
+av
+opencv-contrib-python==4.10.0.84
+torch
+torchvision
+pandas
+plotly
+numpy
+Pillow
+scikit-learn
+matplotlib
+PyYAML
